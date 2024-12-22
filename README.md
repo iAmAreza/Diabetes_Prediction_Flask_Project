@@ -11,7 +11,6 @@ A web application that predicts the likelihood of diabetes based on user input. 
 - **Interactive UI**: Designed with React for a smooth and modern user experience.
 - **Machine Learning Backend**: Powered by a Logistic Regression model trained on a clean and preprocessed dataset.
 - **REST API**: Flask-based API handles requests and returns predictions.
-- **Scalable Design**: Can be extended to include additional features and models.
 
 ---
 
@@ -19,7 +18,7 @@ A web application that predicts the likelihood of diabetes based on user input. 
 
 ### Frontend:
 - [React.js](https://reactjs.org/)
-- HTML5 & CSS3
+- CSS
 
 ### Backend:
 - [Flask](https://flask.palletsprojects.com/)
@@ -78,5 +77,21 @@ A web application that predicts the likelihood of diabetes based on user input. 
 
 ## 📂 Project Structure
 
+- **Diabetes_Prediction/**
+  - **backend/**
+    - `app.py`: Flask application
+    - `predict_diabetes_model.joblib`: Saved ML model
+    - `scaler.joblib`: Scaler for numerical features
+    - `column_order.joblib`: Column order for input
+    - `requirements.txt`: Python dependencies
+  - **frontend/**
+    - **Diabetes_Prediction_Frontend/**
+      - **public/**: Static assets
+      - **src/**
+        - `App.jsx`: Main React component
+        - `Form.jsx`: Form for input
+        - `Result.jsx`: Component to display prediction
+        - `App.css`: Styling
+      - `package.json`: Node.js dependencies
+  - `README.md`: Project documentation
 
-Diabetes_Prediction/ │ ├── backend/ │ ├── app.py # Flask application │ ├── predict_diabetes_model.joblib # Saved ML model │ ├── scaler.joblib # Scaler for numerical features │ ├── column_order.joblib # Column order for input │ └── requirements.txt # Python dependencies │ ├── frontend/ │ ├── Diabetes_Prediction_Frontend/ │ │ ├── public/ # Static assets │ │ ├── src/ │ │ │ ├── App.jsx # Main React component │ │ │ ├── Form.jsx # Form for input │ │ │ ├── Result.jsx # Component to display prediction │ │ │ ├── App.css # Styling │ │ └── package.json # Node.js dependencies │ └── README.md # Project documentation
