@@ -25,6 +25,26 @@ A web application that predicts the likelihood of diabetes based on user input. 
 - Python
 - Flask-CORS
 
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository:
+```bash
+git clone https://github.com/iAmAreza/Diabetes_Prediction_Flask_Project.git
+```
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- [React.js](https://reactjs.org/)
+- CSS
+
+### Backend:
+- [Flask](https://flask.palletsprojects.com/)
+- Python
+- Flask-CORS
+
 ### Machine Learning:
 - Scikit-learn
 - Imbalanced-learn (SMOTE for handling class imbalance)
@@ -94,4 +114,7 @@ A web application that predicts the likelihood of diabetes based on user input. 
         - `App.css`: Styling
       - `package.json`: Node.js dependencies
   - `README.md`: Project documentation
+
+
+
 
